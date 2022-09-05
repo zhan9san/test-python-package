@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "sample"
 version = "0.0.1"
 dependencies = [
-    "requests >= 2.26.0, < 2.27.0",
+    "requests >= 2.8.1",
 ]
 
 [project.scripts]
