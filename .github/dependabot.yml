@@ -1,0 +1,12 @@
+version: 2
+updates:
+  - package-ecosystem: "Poetry"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "18:36"
+      timezone: "Asia/Shanghai"
+    labels:
+      - dependencies
+      - skip-changelog
+    open-pull-requests-limit: 3
