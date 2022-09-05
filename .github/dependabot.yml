@@ -1,10 +1,10 @@
 version: 2
 updates:
-  - package-ecosystem: "Poetry"
+  - package-ecosystem: "pip"
     directory: "/"
     schedule:
       interval: "daily"
-      time: "18:40"
+      time: "18:43"
       timezone: "Asia/Shanghai"
     labels:
       - dependencies
